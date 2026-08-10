@@ -42,7 +42,8 @@ body {
   background: rgba(56, 189, 248, 0.15);
   color: var(--accent);
   font-size: 0.9rem;
-  font-weight: 999px;
+  font-weight: bold;
+
 }
 
 h1 {
