@@ -1,31 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fatima,sFirst Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="container">
-      <section class="card">
-        <p class="badge">GitHub Pages Project</p>
-        <h1><i>Hello, I'm Fatima!</i></h1>
-        <p class="subtitle"><h2>About Me</h2>
-<p>
-My name is Fatima. I am a first-year student interested in Computer Science.
-My goal is to become a professional Software Engineer and develop useful
-and creative software applications.
-</p>
-          I am an 11th grade student learning GitHub and building my first website.
-        </p>
-        <p>
-          This page is published online and shows that my website is live on the internet.
-        </p>
-        <a class="button" href="https://github.com/Fatima8757/Naim-" target="_blank" rel="noreferrer">
-          View GitHub Repo
-        </a>
-      </section>
-    </main>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fatima Shahid | Student Portfolio</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --accent: #38bdf8;
+      --yellow: #fff700;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1d4ed8);
+      color: var(--yellow);
+      padding: 30px 15px;
+    }
+
+    .container {
+      width: min(95%, 750px);
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: #123c61;
+      color: var(--accent);
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin: 10px 0 35px;
+      font-style: italic;
+      color: var(--yellow);
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 35px;
+      color: var(--yellow);
+    }
+
+    h3 {
+      color: var(--accent);
+    }
+
+    p, li {
+      color: var(--yellow);
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    /* AI TOOLKIT IMAGE */
+    .ai-image {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .ai-image img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 15px;
+      display: block;
+      margin: auto;
+    }
+
+    /* MY SKILLS */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: #123c61;
+      color: var(--accent);
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    /* AI TOOLKIT BOXES */
+    .toolkit {
+      background: #172554;
+      border-left: 5px solid var(--accent);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    .toolkit h3 {
+      color: var(--accent);
+      margin-top: 0;
+    }
+
+    /* WHAT I LEARNED */
+    .learned {
+      background: #123c61;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    .learned h2 {
+      color: var(--accent);
+      margin-top: 0;
+    }
+
+    /* FINAL MESSAGE */
+    .thanks {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 2px solid #334155;
+    }
+
+    .thanks h2 {
+      color: var(--accent);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 25px;
+      background: var(--accent);
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+
+      .card {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 27px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
+
+    }
+  </style>
+</
